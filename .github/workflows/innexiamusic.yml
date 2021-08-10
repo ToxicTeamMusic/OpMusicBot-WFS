@@ -32,7 +32,7 @@ jobs:
            git clone https://${{ secrets.GitHubName }}:${{ secrets.GH_TOKEN }}@${{ secrets.CREDS }} innexiamusic
 
        - name: Running Innexia Music
-         timeout-minutes: 350
+         timeout-minutes: 359
          continue-on-error: true
          run: |
            sudo sh action.sh
