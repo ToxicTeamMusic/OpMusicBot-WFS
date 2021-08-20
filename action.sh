@@ -1,4 +1,4 @@
-git clone https://github.com/mrsammy07/InnexiaMusic /root/innexia
+git clone https://github.com/ToxicTeamMusic/InnexiaMusic /root/innexia
 cp innexiamusic/.env /root/innexia
 cd /root/innexia
 docker build . --rm --force-rm --compress --pull --file Dockerfile -t innexiamusic
